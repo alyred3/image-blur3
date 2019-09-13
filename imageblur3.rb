@@ -44,6 +44,6 @@ end
     [0, 0, 0, 0, 0, 0, 0],
   ])
 
-
+ 
 image.blur(2)
 image.output_image
