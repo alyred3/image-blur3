@@ -13,7 +13,7 @@ class Image
 
   def blur(distance)
     distance.times do
-      blur_pixels!
+      blur_pixels
     end
   end
 
