@@ -18,7 +18,7 @@ class Image
   end
 
 
-  def blur_pixels!
+  def blur_pixels
     blur_pixels = []
     @image.each_with_index do |row, i|
       row.each_with_index do |x, row_i|
